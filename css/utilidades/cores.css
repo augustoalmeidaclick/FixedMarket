@@ -1,0 +1,31 @@
+:root {
+  --pink: #FF82B8;
+  --darkpink: #760031;
+  --white: #ffffff;
+  --black: #222222;
+  --gray: #b2b2b2;
+  --darkgray: #404040;
+  --value: #2e2e2e;
+
+  .color-pink {
+    color: var(--pink);
+  }
+  .color-darkpink {
+    color: var(--darkpink);
+  }
+  .color-white {
+    color: var(--white);
+  }
+  .color-black {
+    color: var(--black);
+  }
+  .color-gray {
+    color: var(--gray);
+  }
+  .color-darkgray {
+    color: var(--darkgray);
+  }
+  .value {
+    color: var(val);
+  }
+}

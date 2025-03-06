@@ -1,0 +1,97 @@
+.container {
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.botao-branco {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: var(--white);
+  border: 2px solid var(--white);
+  font: 500 1.125rem/1.35 "Dm Sans", "Helvetica", sans-serif;
+  max-width: max-content;
+  cursor: pointer;
+}
+
+.botao-branco:hover {
+  background: var(--white);
+  border: 2px solid var(--white);
+  color: var(--black);
+}
+
+.botao-preto {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: var(--black);
+  border: 2px solid var(--black);
+  font: 500 1.125rem/1.35 "Dm Sans", "Helvetica", sans-serif;
+  max-width: max-content;
+  cursor: pointer;
+}
+
+.botao-preto:hover {
+  background: var(--black);
+  border: 2px solid var(--black);
+  color: var(--white);
+}
+
+.botao {
+  display: inline-block;
+  padding: 16px 32px;
+  background: var(--pink);
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: var(--darkpink);
+  font: 500 1.125rem/1.35 "Dm Sans", "Helvetica", sans-serif;
+  max-width: max-content;
+  border: none;
+  cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.botao:hover {
+  background: transparent;
+  border: 2px solid var(--pink);
+  color: var(--pink);
+}
+
+
+
+@media (max-width: 600px) {
+  .botao {
+    padding: 12px 16px;
+    font-size: 1rem;
+  }
+}
+
+/* Títulos internos. */
+.titulo-bg {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background: #111;
+}
+
+.titulo p {
+  margin-bottom: 5px;
+}
+
+@media (max-width: 800px) {
+  .titulo-bg {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .titulo p {
+    font-size: 1rem;
+    text-transform: lowercase;
+    font-weight: 400;
+  }
+}
